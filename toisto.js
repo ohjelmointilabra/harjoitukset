@@ -3,7 +3,12 @@ function tulostaToisto(){
     let laskuri = 0;
     for(let i = 1; i <= 10; i ++){
         laskuri += 3;
-        vastausTeksti += "Muuttujan arvo laskentakierroksella " + i + " on " + laskuri + ".<br>"
+        vastausTeksti += "Laskentakierros: " + i + ". Laskurin arvo: " + laskuri + ".<br>"
+        console.log("i = " + i + " | laskuri = " + laskuri)
     }
     document.getElementById("toisto-vastaus").innerHTML = vastausTeksti;
+}
+
+function teeJotain(){
+    // jotain
 }
