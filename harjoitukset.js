@@ -1,7 +1,23 @@
 
 // JAVASCRIPT PERUSTEET
-
     // 2 + '2' ??
+    // tietotyypeistä
+function tulostaPerusteet1(){
+    let ekaNumero = 5;
+    let tokaNumero = 10;
+    let vastaus = ekaNumero + tokaNumero;
+}
+document.getElementById("perusteet-vastaus").innerHTML = vastaus;
+
+// Mitä tulostuu html-elementin sisään, minkä id on "perusteet-vastaus"?
+
+function tulostaPerusteet2(){
+    let n = 2;
+    let s = "2";
+    document.getElementById("perusteet-vastaus").innerHTML = n + n + s;
+}
+
+// Mitä tulostuu html-elementin sisään, minkä id on "perusteet-vastaus"?
 
 // EHTOLAUSEET
 
