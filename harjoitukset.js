@@ -62,7 +62,6 @@ function tulostaValinta(){
 
 // 6. Millä muuttujan 'kellonAika' arvoilla (kokonaisluvut) muuttujaan 'tervehdys' sijoitetaan merkkijono "Hyvää yötä!"?
 
-
 // TOISTORAKENNE
 function tulostaToisto() {
     let vastausTeksti = "";
@@ -82,7 +81,3 @@ function tulostaToisto() {
 // 9. For-toistorakenteessa käytetään apumuuttujaa. Mikä on apumuuttujan arvon lisäämiseen käytetty operaattori?
 
 // BONUS 1. Kirjoita rivin 70 sijoituslause toisella tavalla.
-
-function teeJotain() {
-    // jotain
-}
