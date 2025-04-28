@@ -1,3 +1,4 @@
+// TAULUKKO
 function tulostaTaulukko(){
     let numerot1 = [12, 34, 54, 2, 16];
     numerot1 = [15, 24, 3, 45]
@@ -21,3 +22,27 @@ function tulostaTaulukko(){
 // 12. Millä metodilla lisäät uuden alkion taulukon loppuun?
 
 // BONUS 2. Miksi taulukkoa 'numerot2' ei tulosteta? Miten korjaat virheen? 
+
+// OLIO
+function naytaObjekti(){
+    let auto1 = {
+        merkki: "Honda",
+        malli: "Civic",
+        vuosi: 2002,
+        vari: "punainen"
+    }
+    let auto2 = {
+        merkki: "Toyota",
+        malli: "Corola",
+        vuosi: 2011,
+    }
+
+    let autot = [];
+    
+    document.getElementById("objekti-vastaus").innerHTML = auto1;
+
+}
+
+// 13. Miksi koodin tulostuksessa näkyy [object Object]?
+// 14. Miten lisätään uusi 'vari' -ominaisuus auto2:seen? Kirjoita vastaus objekti-vastaus2 -elementiin
+// 15. Miten lisätään auto1 ja auto2 'autot'-taulukkoon?
