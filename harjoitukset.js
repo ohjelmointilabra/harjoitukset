@@ -80,4 +80,4 @@ function tulostaToisto() {
 
 // 9. For-toistorakenteessa käytetään apumuuttujaa. Mikä on apumuuttujan arvon lisäämiseen käytetty operaattori?
 
-// BONUS 1. Kirjoita rivin 70 sijoituslause toisella tavalla.
+// BONUS 1. Kirjoita sijoituslause 'laskuri += 3' toisella tavalla.
