@@ -44,5 +44,18 @@ function naytaObjekti(){
 }
 
 // 13. Miksi koodin tulostuksessa näkyy [object Object]?
+
 // 14. Miten lisätään uusi 'vari' -ominaisuus auto2:seen? Kirjoita vastaus objekti-vastaus2 -elementiin
+
 // 15. Miten lisätään auto1 ja auto2 'autot'-taulukkoon?
+
+//FUNKTIO
+
+function tulostaParametriFunktio(){
+    let sivu1 = 12;
+    let sivu2 = 9;
+    let pintaAla = laskeSuorakulmionPintaAla(sivu1, sivu2);
+    document.getElementById("funktio-vastaus").innerHTML = pintaAla;
+}
+
+// 16. Luo uusi funktio, jotta funktio tulostaParametriFunktio() toimisi. (Vihje: Suorakulmion pinta-ala lasketaan kanta * korkeus)
